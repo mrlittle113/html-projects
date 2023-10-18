@@ -1,0 +1,32 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:-x hidden;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+.bg {
+    background-image: url(https://picsum.photos/seed/1/1980/1080);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(100px);
+    transition: 0.3s ease;
+}
+
+.loading-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    transition: 0.3s ease;
+}
